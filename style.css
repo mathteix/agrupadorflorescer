@@ -1,12 +1,19 @@
  * {
     font-family: "Inter", sans-serif;
     color: white;
+    text-align: center;
  }
 
  body {
     background-image: url(./img/AgrupadorFundo.jpg);
     background-repeat: no-repeat;
     height: 100vh;
+    
+ }
+
+ #container {
+  text-align: center;
+  align-items: center;
  }
 
  #perfil {
@@ -39,14 +46,16 @@
  }
 
  ul {
+    margin: 16px;
+    padding: 0 20px;
     list-style: none; /* tira as bolinhas da lisa */
-    text-align: center;
   }
   
   ul li a {
     display: flex; /* da o tamanho do elemento*/
     justify-content: center; /* centraliza a escrita no centro do elemento*/
-  
+    align-items: center;
+
     padding: 16px 24px; /* tamnho de espaçamento */
   
     background: var(--surface-color); /* criação de fundo */
