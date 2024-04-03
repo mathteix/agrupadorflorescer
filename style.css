@@ -1,0 +1,71 @@
+ * {
+    font-family: "Inter", sans-serif;
+    color: white;
+ }
+
+ body {
+    background-image: url(./img/AgrupadorFundo.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+ }
+
+ #perfil {
+   padding: 0px; 
+   margin: 0px;
+   text-align: center;
+ }
+
+ #perfil img {
+   width: 168px;
+   height: 168px;
+   margin-right: 0px;
+ }
+
+ #perfil p {
+    font-weight: 500;
+    margin-top: 0px;
+ }
+
+ #social-links {
+   display: flex;
+   justify-content: center;
+   
+   font-size: 30px;
+ }  
+
+ #social-links a {
+   padding: 10px;
+   align-items: center;
+ }
+
+ ul {
+    list-style: none; /* tira as bolinhas da lisa */
+  }
+  
+  ul li a {
+    display: flex; /* da o tamanho do elemento*/
+    justify-content: center; /* centraliza a escrita no centro do elemento*/
+  
+    padding: 16px 24px; /* tamnho de espaçamento */
+  
+    background: var(--surface-color); /* criação de fundo */
+    border: 1px solid var(--stroke-color); /*criação de borda */
+    border-radius: 8px; /* curvatura da borda */
+  
+    backdrop-filter: blur(10px); /*desfocar fundo */
+    -webkit-backdrop-filter: blur(10px); /* para funcionar em outros navegadores */
+  
+    text-decoration: none; /* tira linha a baixo do link */
+    font-weight: 500; /* tamanho da fonte */
+  }
+  
+  ul li a {
+    --stroke-color: rgba(255, 255, 255, 0.5); /* cor da borda */
+    --surface-color: rgba(255, 255, 255, 0.05); /* cor de fundo do quadrado */
+ }
+
+ #final {
+   text-align: center;
+
+   padding-top: 24px;
+ }
